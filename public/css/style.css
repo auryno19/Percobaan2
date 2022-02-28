@@ -1,0 +1,198 @@
+*{
+    font-family: Bebas;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322),rgba(0, 0, 0, 0.212)),url(../background.png);	
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+
+}
+
+.container{
+	padding-top: 1%;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+    
+}
+.logo{
+	width: 50px;
+	cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.logo:hover{
+    transform: translateY(-5px);
+
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;	
+	margin-left: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 4px 5px;
+	border-radius: 20px;
+}
+nav ul li a:hover{
+	background: #fff;
+	color: #db6e14;
+}
+
+.title{
+    padding-top: 100px;
+    text-align: center;
+    
+}
+
+.title h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.title h1:hover{
+    color: #ffc400;
+}
+
+.title h3{
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+	
+}
+
+.bio h1{
+	font-family: agency fb;
+    padding-top: 35px;
+    text-align: left;
+    color: #fff;
+    font-size: 60px;
+	margin-bottom: 0px;
+}
+
+.bio h3{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: lighter;
+	margin-top: 3px;
+}
+
+.photo{
+	width: 350px;
+	height: auto;
+	/* border-radius: 20px; */
+	margin-top: 70px;
+	margin-left: 150px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+	margin-bottom: 20px;	
+}
+
+.photobox {
+	text-align: center;
+	padding: 5px 5px;
+  }
+
+.box{
+	width:410px;
+	height: 260px;
+	padding: 0;
+	margin: 0;
+	
+	
+}
+.box p{
+	
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.box2{
+	align-items: baseline;
+	width:410px;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	
+	
+}
+
+.sosmed{
+	
+	width: 40px;
+	padding-right: 25px;
+	-webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.sosmed:hover{
+	opacity: 50%;
+}
+
+hr {  
+  width: 95%;  
+  height:1px;
+  margin-top: 10px;
+  border-width:0;
+  background-color:#ffffff52;
+}  
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #18181865;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.footer h4{
+	margin-top: 3px;
+	margin-bottom: 2px;
+}
+
+.footer p{
+	line-height: 0%;
+}
+
+.time{
+	margin: 0;
+	color: #fff;
+	text-align: right;
+	font-size: 15px;
+	font-weight: lighter;
+}
