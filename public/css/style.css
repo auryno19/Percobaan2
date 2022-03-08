@@ -51,8 +51,8 @@ nav ul li a{
 	border-radius: 20px;
 }
 nav ul li a:hover{
-	background: #fff;
-	color: #db6e14;
+	background: rgb(88, 88, 88);
+	
 }
 
 .title{
@@ -88,7 +88,7 @@ nav ul li a:hover{
 
 .bio h1{
 	font-family: agency fb;
-    padding-top: 35px;
+    padding-top: 20px;
     text-align: left;
     color: #fff;
     font-size: 60px;
@@ -122,33 +122,28 @@ nav ul li a:hover{
 
 .box{
 	width:410px;
-	height: 260px;
+	height: 320px;
 	padding: 0;
 	margin: 0;
+	/* font-size: 20px; */
 	
 	
 }
-.box p{
-	
-	color: #fff;
-	font-size: 16px;
-	line-height: 1.5;
-	text-align: justify;
-}
+
 
 .box2{
 	align-items: baseline;
 	width:410px;
 	height: 60px;
 	padding: 0;
-	margin: 0;
+	margin-left: 70px;
 	
 	
 }
 
 .sosmed{
 	
-	width: 40px;
+	width: 80px;
 	padding-right: 25px;
 	-webkit-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
@@ -190,9 +185,17 @@ hr {
 }
 
 .time{
-	margin: 0;
+	margin-right: 20px;
 	color: #fff;
 	text-align: right;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: lighter;
+}
+
+tr{
+	color: #ffffff52;
+}
+
+td{
+	color: #fff;
 }

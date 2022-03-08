@@ -14,13 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/about', function () {
-    return view('biodata');
+    return view('biodata', [
+        "title" => "Biodata"
+    ]);
 });
 
-Route::get('/gallery', function () {
-    return view('gallery');
+Route::get('/komentar', function () {
+    return view('komentar', [
+        "title" => "Komentar"
+    ]);
 });
