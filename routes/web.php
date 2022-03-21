@@ -1,6 +1,8 @@
 <?php
 
+use App\Models\Bio;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,20 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home', [
-        "title" => "Home"
-    ]);
-});
+Route::get('/', [BioController::class, 'home']);
 
-Route::get('/about', function () {
-    return view('biodata', [
-        "title" => "Biodata"
-    ]);
-});
+Route::get('/about', [BioController::class, 'about']);
 
-Route::get('/komentar', function () {
-    return view('komentar', [
-        "title" => "Komentar"
-    ]);
-});
+Route::get('/komentar', [BioController::class, 'komentar']);

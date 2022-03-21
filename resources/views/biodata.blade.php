@@ -13,7 +13,7 @@
                         <tr>
                             <td>Nama Lengkap</th>
                             <td>:</td>
-                            <td>Auryno Nagata Adyatma</td>
+                            <td>{{ $nama }}</td>
                         </tr>
                         <tr>
                             <td>TTL</th>
@@ -23,28 +23,29 @@
                         <tr>
                             <td>Usia</th>
                             <td>:</td>
-                            <td>21 Tahun</td>
+                            <td>{{ $umur }} Tahun</td>
                         </tr>
                         <tr>
                             <td>Jenis Kelamin</th>
                             <td>:</td>
-                            <td>Laki Laki</td>
+                            <td>{{ $jk["jenis"] }}</td>
                         </tr>
                         <tr>
                             <td>Alamat</th>
                             <td>:</td>
-                            <td>Jl. tuntang 1 no 8</td>
+                            <td>{{ $alamat }}</td>
                         </tr>
                         <tr>
                             <td>Agama</th>
                             <td>:</td>
-                            <td>Islam</td>
+                            <td>{{ $agama["agama"] }}</td>
                         </tr>
                         <tr>
                             <td>Pekerjaan</th>
                             <td>:</td>
-                            <td>Pelajar</td>
+                            <td>{{ $pekerjaan }}</td>
                         </tr>
+                        
                     </tbody>
                 </table>
                 {{-- <p>
