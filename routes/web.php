@@ -3,6 +3,7 @@
 use App\Models\Bio;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BioController;
+use App\Http\Controller\BiodataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,8 +16,8 @@ use App\Http\Controllers\BioController;
 |
 */
 
-Route::get('/', [BioController::class, 'home']);
+Route::get('/', [\App\Http\Controllers\BioController::class, 'home']);
 
-Route::get('/about', [BioController::class, 'about']);
+Route::get('/biodata', [\App\Http\Controllers\BiodataController::class, 'index']);
 
-Route::get('/komentar', [BioController::class, 'komentar']);
+Route::get('/komentar', [\App\Http\Controllers\BioController::class, 'komentar']);

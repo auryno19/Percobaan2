@@ -28,7 +28,7 @@
                         <tr>
                             <td>Jenis Kelamin</th>
                             <td>:</td>
-                            <td>{{ $jk["jenis"] }}</td>
+                            <td>{{ $jk }}</td>
                         </tr>
                         <tr>
                             <td>Alamat</th>
@@ -38,7 +38,7 @@
                         <tr>
                             <td>Agama</th>
                             <td>:</td>
-                            <td>{{ $agama["agama"] }}</td>
+                            <td>{{ $agama }}</td>
                         </tr>
                         <tr>
                             <td>Pekerjaan</th>
